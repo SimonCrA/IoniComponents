@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'input', loadChildren: './pages/input/input.module#InputPageModule' },
   { path: 'list', loadChildren: './pages/list/list.module#ListPageModule' },
   { path: 'list-reoder', loadChildren: './pages/list-reoder/list-reoder.module#ListReoderPageModule' },
+  { path: 'loading', loadChildren: './pages/loading/loading.module#LoadingPageModule' },
 ];
 
 @NgModule({
