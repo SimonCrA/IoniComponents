@@ -18,6 +18,7 @@ const routes: Routes = [
   { path: 'list', loadChildren: './pages/list/list.module#ListPageModule' },
   { path: 'list-reoder', loadChildren: './pages/list-reoder/list-reoder.module#ListReoderPageModule' },
   { path: 'loading', loadChildren: './pages/loading/loading.module#LoadingPageModule' },
+  { path: 'modal', loadChildren: './pages/modal/modal.module#ModalPageModule' },
 ];
 
 @NgModule({
